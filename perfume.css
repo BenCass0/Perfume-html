@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+body{
+max-width: 375px;
+background-color: rgb(255, 241, 223);
+box-sizing: 300px;
+box-sizing: border-box;
+}
+.informacion ul{
+    font-family: 'Fraunces', sans-serif;
+    list-style: none;
+}
+.gab{
+    font-size: 2rem;
+    padding: 0.2em 0;
+}
+.precio{
+    padding: 0 0.9em;
+    font-family: 'Fraunces', sans-serif;
+    color: rgb(19, 124, 89);
+    font-size: 2.3rem;
+    text-align: left;
+}
+.precio span{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    color: rgb(131, 131, 131);
+    font-weight: 500;
+    text-decoration-line: line-through;
+}
+.boton{
+    background-color: rgb(19, 124, 89);
+    border-color:rgb(19, 124, 89);
+    font-size: 1rem;
+    color: white;
+    width: 290px;
+    height: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.img{
+    padding: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-height: 50%;
+}
+.logo{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(148, 147, 147);
+    font-weight: 400;
+    font-size: .8rem;
+
+}
+.flo{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(148, 147, 147);
+    font-weight: 300;
+    font-size: .9rem;
+    padding: .8em 0;
+}
+.informacion{
+    border: solid 1px rgba(255,255,255,0.4);
+    background-color: white;
+    max-width: 375px;
+    text-align: left;
+    border-radius: 10px;
+}
+.boton{
+    text-align: center;
+}
+@media(min-width:376px){
+.informacion{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    border: solid 1px rgba(255,255,255,0.4);
+    background-color: white;
+    border-radius: 10px;
+}
+.img{
+    max-height: 100%;
+}
+
+}
